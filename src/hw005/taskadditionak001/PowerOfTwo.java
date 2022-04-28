@@ -16,5 +16,6 @@ public class PowerOfTwo {
         int number = in.nextInt();
         System.out.printf("%s.", (number > 0 && (number & (number - 1)) == 0 ?
                 "This number is Pow of 2" : "This number isn't Pow of 2"));
+        in.close();
     }
 }
