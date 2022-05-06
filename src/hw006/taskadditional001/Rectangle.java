@@ -15,11 +15,11 @@ public class Rectangle {
     public static void main(String[] args) {
         System.out.println("To draw rectangle, please, input height: ");
         Scanner in = new Scanner(System.in);
-        int height = in.nextInt();
-        System.out.println("Input width: ");
-        int width = in.nextInt();
-        System.out.println("Rectangle:".toUpperCase(Locale.ROOT));
-        for (int i = 0; i < height; i++) {
+            int height = in.nextInt();
+            System.out.println("Input width: ");
+            int width = in.nextInt();
+            System.out.println("Rectangle:".toUpperCase(Locale.ROOT));
+            for (int i = 0; i < height; i++) {
             for (int j = 0; j < width; j++) {
                 System.out.print("*");
             }
