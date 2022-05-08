@@ -16,5 +16,6 @@ public class ArithmeticAverage {
         Scanner in = new Scanner(System.in);
         System.out.printf("The average is %.2f.", (double) (in.nextInt() + in.nextInt() + in.nextInt()) / 3);
         // Чтобы избежать кастинг к типу данных дабл, можно сразу использовать этот тип данных
+        in.close();
     }
 }
