@@ -21,7 +21,7 @@ public class TaskThree {
         char[] charsFromString = someString.toCharArray();
         int sum = 0;
         for (char character : charsFromString) {
-            sum += character;
+            sum += Character.getNumericValue(character);
         }
         return sum;
     }
